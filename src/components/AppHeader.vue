@@ -23,7 +23,7 @@
       </svg>
     </button>
     <div class="header-content">
-      <h1 class="app-title">My Application</h1>
+      <h1 class="app-title">My Application Prasad</h1>
     </div>
   </header>
 </template>
