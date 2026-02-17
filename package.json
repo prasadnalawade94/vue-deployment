@@ -9,10 +9,10 @@
     "preview": "vite preview",
     "deploy": "npm run build && cp -r dist/* /opt/homebrew/var/www/",
     "watch-deploy": "vite build --watch"
-    
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
+    "express": "^5.2.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4",
