@@ -5,7 +5,7 @@
       <v-text-field label="Name" />
     </v-col>
 
-    <v-col cols="6">
+    <v-col cols="6">e
       <v-btn color="primary">Save</v-btn>
     </v-col>
   </v-row>
