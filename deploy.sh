@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "Starting deployment..."
+
+cd /Users/prasadvaibhavnalawade/pinia-demo
+
 echo "Pull latest code..."
 git pull origin main
 
@@ -10,7 +14,6 @@ echo "Building project..."
 npm run build
 
 echo "Deploying to nginx..."
-cp -r dist/* /opt/homebrew/var/www/
+cp -r dist/* /opt/homebrew/var/www/html/
 
-echo "Deployment Done!"
-
+echo "Deployment completed!"
